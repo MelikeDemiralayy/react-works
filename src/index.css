@@ -1,0 +1,40 @@
+.card{
+  border: 1px solid rgb(179, 177, 177);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(185, 181, 181);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(129, 124, 124);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(148, 139, 139);
+}
+
+/* .button{
+  background-color: #72a4f5;
+  color: white;
+  border: 2px solid #2f599c ;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+external css yazarken, modules ve inline css gibi yöntemler de var.
+modules: button için ayrı bir component klasörü oluşturup css ve jsx kısımlarını orda işleriz.
+inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
+*/
