@@ -38,3 +38,27 @@ external css yazarken, modules ve inline css gibi yöntemler de var.
 modules: button için ayrı bir component klasörü oluşturup css ve jsx kısımlarını orda işleriz.
 inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
 */
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding:10px;
+  margin:5px;
+  border: 1px solid rgb(151, 138, 138);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+}
+.student p {
+  margin: 0 5px; 
+}
+
+@media only screen and (max-width: 820px) {
+.student{
+  display: flex;
+  flex-direction: column;
+}
+}
+
