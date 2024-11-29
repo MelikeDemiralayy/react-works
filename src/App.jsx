@@ -6,6 +6,7 @@ import Button from "./Button/Button"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 import List from "./List"
+import Click from "./Click"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
      <Student/> 
      <UserGreeting isLoggedIn={false} username="Melike"/>
      <List/>
+     <Click/>
      <Footer/>
    
     </>
