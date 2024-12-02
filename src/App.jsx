@@ -10,6 +10,7 @@ import Click from "./Click"
 import MyComponent from "./MyComponent"
 import Counter from "./Counter"
 import OnChange from "./onChange"
+import ColorPicker from "./ColorPicker"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
      <MyComponent/> */}
      <Counter/>
     <OnChange/>
+    <ColorPicker/>
      {/* <Footer/> */}
    
     </>
