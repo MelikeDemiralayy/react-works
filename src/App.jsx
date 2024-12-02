@@ -9,6 +9,7 @@ import List from "./List"
 import Click from "./Click"
 import MyComponent from "./MyComponent"
 import Counter from "./Counter"
+import OnChange from "./onChange"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
      <Click/>
      <MyComponent/> */}
      <Counter/>
+    <OnChange/>
      {/* <Footer/> */}
    
     </>
