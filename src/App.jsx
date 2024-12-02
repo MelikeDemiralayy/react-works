@@ -7,6 +7,8 @@ import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 import List from "./List"
 import Click from "./Click"
+import MyComponent from "./MyComponent"
+import Counter from "./Counter"
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
 
   return (
     <>
-     <Header/>
+     {/* <Header/>
      <Food/>
      <Card/>
      <Button/>
@@ -25,7 +27,9 @@ function App() {
      <UserGreeting isLoggedIn={false} username="Melike"/>
      <List/>
      <Click/>
-     <Footer/>
+     <MyComponent/> */}
+     <Counter/>
+     {/* <Footer/> */}
    
     </>
   )
