@@ -13,6 +13,7 @@ import OnChange from "./onChange"
 import ColorPicker from "./ColorPicker"
 import UpdaterFunction from "./UpdaterFunction"
 import UpdateObjects from "./UpdateObjects"
+import UpdateArrays from "./UpdateArrays"
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
     <ColorPicker/>
     <UpdaterFunction/>
     <UpdateObjects/>
+    <UpdateArrays/>
      {/* <Footer/> */}
    
     </>
