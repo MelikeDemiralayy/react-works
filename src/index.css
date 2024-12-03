@@ -160,3 +160,37 @@ inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
   border: 3px solid rgb(197, 191, 191);
   ;
 }
+
+.carlist-container{
+  display: flex;
+  flex-direction: column;
+ width: 250px;
+ text-align: start;
+ justify-content: center;
+ border: 2px solid rgb(202, 131, 131);
+ margin: 5px;
+ padding: 5px;
+ margin-left: 400px;
+ margin-top: 10px;
+}
+
+.carlist-container input{
+  width: 200px;
+  height: 20px;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border: 1px solid gray;
+}
+
+.carlist-container button{
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top:20px;
+  
+}

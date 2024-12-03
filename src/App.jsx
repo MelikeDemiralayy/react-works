@@ -14,6 +14,7 @@ import ColorPicker from "./ColorPicker"
 import UpdaterFunction from "./UpdaterFunction"
 import UpdateObjects from "./UpdateObjects"
 import UpdateArrays from "./UpdateArrays"
+import CarList from "./CarList"
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
     <UpdaterFunction/>
     <UpdateObjects/>
     <UpdateArrays/>
+    <CarList/>
      {/* <Footer/> */}
    
     </>
