@@ -11,6 +11,7 @@ import MyComponent from "./MyComponent"
 import Counter from "./Counter"
 import OnChange from "./onChange"
 import ColorPicker from "./ColorPicker"
+import UpdaterFunction from "./UpdaterFunction"
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
      <Counter/>
     <OnChange/>
     <ColorPicker/>
+    <UpdaterFunction/>
      {/* <Footer/> */}
    
     </>
