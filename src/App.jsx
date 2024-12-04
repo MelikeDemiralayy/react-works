@@ -15,6 +15,7 @@ import UpdaterFunction from "./UpdaterFunction"
 import UpdateObjects from "./UpdateObjects"
 import UpdateArrays from "./UpdateArrays"
 import CarList from "./CarList"
+import UseEffect from "./UseEffect"
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
     <UpdateObjects/>
     <UpdateArrays/>
     <CarList/>
+    <UseEffect/>
      {/* <Footer/> */}
    
     </>
