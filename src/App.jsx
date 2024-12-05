@@ -18,6 +18,7 @@ import CarList from "./CarList"
 import UseEffect from "./UseEffect"
 import UseEffectTwo from "./UseEffectTwo"
 import ContextA from "./ContextA"
+import UseRef from "./UseRef"
 
 
 
@@ -48,6 +49,7 @@ function App() {
     <UseEffect/>
     <UseEffectTwo/>
     <ContextA/>
+    <UseRef/>
      {/* <Footer/> */}
    
     </>

@@ -170,7 +170,7 @@ inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
  border: 2px solid rgb(202, 131, 131);
  margin: 5px;
  padding: 5px;
- margin-left: 400px;
+ margin-left: 50%;
  margin-top: 10px;
 }
 
@@ -198,4 +198,17 @@ inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
 .box{
   border: 3px solid;
   padding: 25px;
+}
+
+.button-ref {
+  padding: 10px 20px; 
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50%;
+
 }
