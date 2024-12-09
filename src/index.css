@@ -212,3 +212,61 @@ inline: taiwind gibi kütüphaneler ile ya da direkt const styles{} şeklinde.
   margin-left: 50%;
 
 }
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border: 5px solid;
+  border-radius: 50px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.display-stopwatch{
+font-size: 5rem;
+font-family: monospace;
+font-weight: bold;
+color: rgb(66, 66, 66);
+text-shadow: 2px 2px 2px rgb(83, 83, 83);
+margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding:10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: rgb(52, 185, 52);
+}
+
+.start-button:hover{
+  background-color: rgb(22, 134, 22);
+}
+
+.stop-button{
+  background-color: rgb(243, 22, 22);
+}
+
+.stop-button:hover{
+  background-color: rgb(199, 15, 15);
+}
+
+.reset-button{
+ background-color: rgba(57, 155, 235, 0.945);
+}
+
+.reset-button:hover{
+ background-color:  rgba(19, 126, 214, 0.945);
+}

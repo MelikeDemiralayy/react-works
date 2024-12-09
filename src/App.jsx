@@ -19,6 +19,7 @@ import UseEffect from "./UseEffect"
 import UseEffectTwo from "./UseEffectTwo"
 import ContextA from "./ContextA"
 import UseRef from "./UseRef"
+import StopWatch from "./StopWatch"
 
 
 
@@ -27,7 +28,7 @@ function App() {
 
   return (
     <>
-     {/* <Header/>
+     <Header/>
      <Food/>
      <Card/>
      <Button/>
@@ -38,7 +39,7 @@ function App() {
      <UserGreeting isLoggedIn={false} username="Melike"/>
      <List/>
      <Click/>
-     <MyComponent/> */}
+     <MyComponent/>
      <Counter/>
     <OnChange/>
     <ColorPicker/>
@@ -50,7 +51,8 @@ function App() {
     <UseEffectTwo/>
     <ContextA/>
     <UseRef/>
-     {/* <Footer/> */}
+    <StopWatch/>
+     <Footer/>
    
     </>
   )
